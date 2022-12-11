@@ -12,4 +12,4 @@ eg:
 > git push origin bugfix:mybugfix
 
 Remove branch on github
-> git branch -d <master branch> <branch name>
+> git push -d <master branch> <branch name>
