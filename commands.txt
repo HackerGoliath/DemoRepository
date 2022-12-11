@@ -4,3 +4,4 @@ Get remote info
 > git remote add origin <url>
 
 Move branches to github
+> git push <master branch> <other brach> ( be sure that you are in same branch which you are pushing to github)
