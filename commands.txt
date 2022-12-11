@@ -1,0 +1,12 @@
+Get more info about branch
+> git branch -v
+
+Get already merged branches
+> git branch --merged
+Get no merged branches
+> git branch --no-merged
+
+Delete a branch
+> git branch -d <branchname>
+again
+> git branch -D <branchname>
