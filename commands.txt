@@ -5,3 +5,8 @@ Get remote info
 
 Move branches to github
 > git push <master branch> <other brach> ( be sure that you are in same branch which you are pushing to github)
+
+Move branch to github with a different name
+> git push <master branch> <uploading branch>:<name on github>
+eg:
+> git push origin bugfix:mybugfix
