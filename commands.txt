@@ -4,9 +4,12 @@ Get remote info
 > git remote add origin <url>
 
 Move branches to github
-> git push <master branch> <other brach> ( be sure that you are in same branch which you are pushing to github)
+> git push <master branch> <other branch> ( be sure that you are in same branch which you are pushing to github)
 
 Move branch to github with a different name
 > git push <master branch> <uploading branch>:<name on github>
 eg:
 > git push origin bugfix:mybugfix
+
+Remove branch on github
+> git branch -d <master branch> <branch name>
